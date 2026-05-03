@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Профессиональный портфолио веб-разработчика">
+    <title>Мой Портфолио | Веб-разработка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <a href="#home" class="logo__link">AM</a>
+                </div>
+
+                <!-- Burger Menu Button -->
+                <button class="burger" aria-label="Меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Навыки</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">Привет! Я веб-разработчик</h1>
+                    <p class="hero__subtitle">Создаю современные, адаптивные и функциональные веб-сайты</p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary">Смотреть работы</button>
+                        <button class="btn btn--secondary">Связаться со мной</button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <svg class="hero__svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+                        <path d="M 80 60 Q 100 40 120 60" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="85" cy="80" r="4" fill="currentColor"/>
+                        <circle cx="115" cy="80" r="4" fill="currentColor"/>
+                        <path d="M 90 110 Q 100 120 110 110" fill="none" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about__content">
+                <div class="about__image">
+                    <div class="about__placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                            <circle cx="100" cy="60" r="35" fill="currentColor" opacity="0.1"/>
+                            <path d="M 60 140 Q 100 120 140 140 L 140 180 Q 100 200 60 180 Z" fill="currentColor" opacity="0.1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about__text">
+                    <h3 class="about__heading">Мне 25 лет, я опытный веб-разработчик</h3>
+                    <p class="about__paragraph">
+                        С опытом работы более 3 лет я специализируюсь на создании современных веб-приложений и адаптивных сайтов. Помогаю компаниям и стартапам воплотить их идеи в реальность.
+                    </p>
+                    <p class="about__paragraph">
+                        Работаю с современным стеком технологий: HTML5, CSS3, JavaScript, React, Node.js. Постоянно учусь и следую лучшим практикам разработки.
+                    </p>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <span class="stat__number">50+</span>
+                            <span class="stat__label">Проектов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">30+</span>
+                            <span class="stat__label">Довольных клиентов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">3+</span>
+                            <span class="stat__label">Лет опыта</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills__grid">
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 3L5 7v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V7l-4-4M9 3h6M9 3v4h6V3"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Frontend</h3>
+                    <p class="skill-card__text">HTML5, CSS3, JavaScript ES6+, React, Vue.js, Responsive Design</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20M5 5l14 14M19 5l-14 14"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Backend</h3>
+                    <p class="skill-card__text">Node.js, Express, MongoDB, REST API, SQL</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M2 17h20M7 21h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">UI/UX</h3>
+                    <p class="skill-card__text">Figma, Web Design, Адаптивная верстка, Animation</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.5 6c.6 0 1 .4 1 1v10c0 .6-.4 1-1 1H3.5c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h17z"/>
+                            <path d="M3 6v2h18V6"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">DevOps</h3>
+                    <p class="skill-card__text">Git, GitHub, CI/CD, Docker, Deployment</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Performance</h3>
+                    <p class="skill-card__text">SEO, Web Performance, Accessibility, Best Practices</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Другое</h3>
+                    <p class="skill-card__text">WebSockets, GraphQL, Testing, Webpack</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Мое портфолио</h2>
+            <div class="portfolio__grid">
+                <article class="portfolio-card">
+                    <div class="portfolio-card__image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#f0f0f0"/>
+                            <rect x="10" y="10" width="280" height="40" rx="4" fill="#e0e0e0"/>
+                            <rect x="10" y="60" width="280" height="120" rx="4" fill="#e8e8e8"/>
+                            <circle cx="30" cy="85" r="8" fill="#d0d0d0"/>
+                            <rect x="50" y="80" width="60" height="16" fill="#d0d0d0"/>
+                            <rect x="50" y="105" width="100" height="8" fill="#d8d8d8"/>
+                            <rect x="50" y="120" width="90" height="8" fill="#d8d8d8"/>
+                        </svg>
+                    </div>
+                    <div class="portfolio-card__content">
+                        <h3 class="portfolio-card__title">E-commerce Platform</h3>
+                        <p class="portfolio-card__description">Полнофункциональный интернет-магазин с системой управления товарами, корзиной и интеграцией платежей</p>
+                        <div class="portfolio-card__tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="portfolio-card__link">Смотреть проект →</a>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <div class="portfolio-card__image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#f5f5f5"/>
+                            <circle cx="150" cy="100" r="50" fill="#e0e0e0"/>
+                            <path d="M 150 70 L 170 100 L 160 100 L 160 130 L 140 130 L 140 100 L 130 100 Z" fill="#d0d0d0"/>
+                            <rect x="10" y="160" width="280" height="20" fill="#e8e8e8"/>
+                        </svg>
+                    </div>
+                    <div class="portfolio-card__content">
+                        <h3 class="portfolio-card__title">Social Network App</h3>
+                        <p class="portfolio-card__description">Социальная сеть с функциями постов, лайков, комментариев и системой уведомлений в реальном времени</p>
+                        <div class="portfolio-card__tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="portfolio-card__link">Смотреть проект →</a>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <div class="portfolio-card__image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#fafafa"/>
+                            <rect x="20" y="20" width="260" height="30" rx="4" fill="#efefef"/>
+                            <rect x="20" y="70" width="60" height="60" rx="4" fill="#efefef"/>
+                            <rect x="100" y="70" width="60" height="60" rx="4" fill="#efefef"/>
+                            <rect x="180" y="70" width="60" height="60" rx="4" fill="#efefef"/>
+                            <rect x="20" y="150" width="220" height="30" rx="4" fill="#f5f5f5"/>
+                        </svg>
+                    </div>
+                    <div class="portfolio-card__content">
+                        <h3 class="portfolio-card__title">Design System</h3>
+                        <p class="portfolio-card__description">Комплексная система проектирования с компонентами, гайдлайнами и документацией для масштабируемых проектов</p>
+                        <div class="portfolio-card__tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Storybook</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="#" class="portfolio-card__link">Смотреть проект →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="services__grid">
+                <div class="service-item">
+                    <div class="service-item__number">01</div>
+                    <h3 class="service-item__title">Веб-дизайн</h3>
+                    <p class="service-item__description">
+                        Создание современного, привлекательного дизайна сайтов с учетом последних трендов в UX/UI. Я разрабатываю дизайн, который не только красив, но и функционален.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>Макеты в Figma</li>
+                        <li>Прототипирование</li>
+                        <li>Адаптивный дизайн</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__number">02</div>
+                    <h3 class="service-item__title">Фронтенд-разработка</h3>
+                    <p class="service-item__description">
+                        Профессиональная разработка интерфейсов с использованием современных технологий и best practices. Гарантирую высокую производительность и кроссбраузерную совместимость.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>Адаптивная верстка</li>
+                        <li>JavaScript/React</li>
+                        <li>Performance оптимизация</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__number">03</div>
+                    <h3 class="service-item__title">Бэкенд-разработка</h3>
+                    <p class="service-item__description">
+                        Разработка надежного и масштабируемого серверного кода. Создаю API, настраиваю базы данных и обеспечиваю безопасность приложений.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>REST API</li>
+                        <li>БД (SQL/NoSQL)</li>
+                        <li>Аутентификация</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__number">04</div>
+                    <h3 class="service-item__title">Полный цикл</h3>
+                    <p class="service-item__description">
+                        Создание web-приложений от идеи до запуска. Справляюсь с проектом в полном объеме: дизайн, фронтенд, бэкенд, деплой и поддержка.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>Планирование</li>
+                        <li>Разработка</li>
+                        <li>Деплой и поддержка</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__number">05</div>
+                    <h3 class="service-item__title">Оптимизация</h3>
+                    <p class="service-item__description">
+                        Улучшение производительности и SEO существующих сайтов. Анализирую сайт, выявляю проблемы и реализую эффективные решения.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>Speed optimization</li>
+                        <li>SEO</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item__number">06</div>
+                    <h3 class="service-item__title">Консультация</h3>
+                    <p class="service-item__description">
+                        Помощь в выборе технологий, архитектуры проекта и best practices. Я помогу вам принять правильные решения для вашего проекта.
+                    </p>
+                    <ul class="service-item__list">
+                        <li>Технических решений</li>
+                        <li>Архитектура</li>
+                        <li>Best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжись со мной</h2>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <h3 class="contact__heading">Давайте вместе создадим что-то прекрасное</h3>
+                    <p class="contact__text">Я открыт для новых проектов и интересных идей. Напиши мне, и я свяжусь с тобой в течение 24 часов.</p>
+                    
+                    <div class="contact__methods">
+                        <div class="contact-method">
+                            <h4 class="contact-method__title">Email</h4>
+                            <a href="mailto:hello@example.com" class="contact-method__link">hello@example.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <h4 class="contact-method__title">Телефон</h4>
+                            <a href="tel:+79991234567" class="contact-method__link">+7 (999) 123-45-67</a>
+                        </div>
+                        <div class="contact-method">
+                            <h4 class="contact-method__title">Социальные сети</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link" title="GitHub">GitHub</a>
+                                <a href="#" class="social-link" title="LinkedIn">LinkedIn</a>
+                                <a href="#" class="social-link" title="Twitter">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Имя</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Тема</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Сообщение</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text">&copy; 2024 Мой портфолио. Все права защищены.</p>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Политика приватности</a>
+                    <a href="#" class="footer__link">Условия использования</a>
+                    <a href="#" class="footer__link">Карта сайта</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Вернуться в начало">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
